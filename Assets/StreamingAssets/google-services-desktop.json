@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "726185341280",
+    "project_id": "dailyoffers-1e211",
+    "storage_bucket": "dailyoffers-1e211.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:726185341280:android:5b0541fffe98d78a1e6e05",
+        "android_client_info": {
+          "package_name": "com.HAR4A.DailyOffers"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB_YxOOwp1rFTtvM-mnqn0HVvlU29go17A"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

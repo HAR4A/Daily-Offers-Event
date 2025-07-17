@@ -1,0 +1,15 @@
+{
+  "name": "Services",
+  "references": 
+  [
+    "Timer",
+    "ConfigProviders",
+    "DataProviders",
+    "UnityEngine.Advertisements",    
+    "Zenject",                       
+    "UniTask",                       
+    "UnityEngine.UI",
+    "UnityEngine.Purchasing",
+    "UnityEngine.Purchasing.Stores"
+  ]
+}

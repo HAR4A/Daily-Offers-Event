@@ -1,0 +1,17 @@
+{
+  "name": "Offers",
+  "references": [
+    "Timer",
+    "ConfigProviders",
+    "DataProviders",
+    "UniTask",
+    "UniRx",
+    "Unity.Addressables",
+    "Unity.ResourceManager",
+    "Unity.TextMeshPro",
+    "Zenject",
+    "Services",
+    "UnityEngine.Purchasing"
+  ]
+}
+

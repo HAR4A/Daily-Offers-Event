@@ -1,0 +1,32 @@
+[
+  {
+    "Id": "offer_life",
+    "DisplayName": "Free Life Pack",
+    "RewardDescriptionKey": "reward_life",
+    "RewardIconPath": "item_life",
+    "Price": 0,
+    "DurationSeconds": 86400,
+    "PurchaseType": "RewardedAd",
+    "ProductId": "ad_unit_offer_life"
+  },
+  {
+    "Id": "offer_potion",
+    "DisplayName": "Potion Bundle",
+    "RewardDescriptionKey": "reward_potion",
+    "RewardIconPath": "item_potion",
+    "Price": 1.99,
+    "DurationSeconds": 86400,
+    "PurchaseType": "InAppPurchase",
+    "ProductId": "com.HAR4A.DailyOffers.potion_pack"
+  },
+  {
+    "Id": "offer_shield",
+    "DisplayName": "Shield Pack",
+    "RewardDescriptionKey": "reward_shield",
+    "RewardIconPath": "item_shield",
+    "Price": 2.99,
+    "DurationSeconds": 86400,
+    "PurchaseType": "InAppPurchase",
+    "ProductId": "com.HAR4A.DailyOffers.shield_pack"
+  }
+]

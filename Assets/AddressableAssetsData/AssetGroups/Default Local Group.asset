@@ -1,0 +1,91 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: Default Local Group
+  m_EditorClassIdentifier: 
+  m_GroupName: Default Local Group
+  m_Data:
+    m_SerializedData: []
+  m_GUID: 37523e7f7a2f21f4ebd58839edbc49cf
+  m_SerializeEntries:
+  - m_GUID: 0ddd55fc13036864f97053b9e8ce212d
+    m_Address: GUI Kit DarkStone/ResourceData/Sprite/Item/item_life
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item_life
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 26efd23c8abef1b4396f33b87e7893a3
+    m_Address: GUI Kit DarkStone/ResourceData/Sprite/Item/icon_lock
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item_lock
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 321e65f9439c80340b81d706dc735c74
+    m_Address: GUI Kit DarkStone/ResourceData/Sprite/Item/btn_item_green
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 42f62eb7b483af14da6dbf95b8780bd3
+    m_Address: GUI Kit DarkStone/ResourceData/Sprite/Item/item_frame_dim
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 538adf7e8967ce540b0353188e80a2ab
+    m_Address: GUI Kit DarkStone/ResourceData/Sprite/Item/item_potion
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item_potion
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 559f8d57a4c1ecf4eb0f1a9f476a4911
+    m_Address: GUI Kit DarkStone/ResourceData/Sprite/Item/item_shield
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item_shield
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 627af61b26cf64f4796a088cb2a31247
+    m_Address: GUI Kit DarkStone/ResourceData/Sprite/Item/title_icon_gem
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 673c32bd879c3664fbe59008570eace3
+    m_Address: GUI Kit DarkStone/ResourceData/Sprite/Item/item_attack
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item_attack
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 7501a177ad98a704bb3b7acde7bb7354
+    m_Address: GUI Kit DarkStone/Prefabs/OfferPrefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 75e63ca71b6e49548b8c2e23750a7d95
+    m_Address: GUI Kit DarkStone/ResourceData/Sprite/Item/item_timer
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item_timer
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: aca525767d3608f4189e54ae32a0ee46
+    m_Address: GUI Kit DarkStone/ResourceData/Sprite/Item/item_frame
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c0c2ebd1d8cc3f64cbd479b51a6ea138
+    m_Address: GUI Kit DarkStone/ResourceData/Sprite/Item/bg_price
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: e8a29a616db7ed545b9f27d4f1940398, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: bcd85ed2521894942b864b438907eaf8, type: 2}
+    - {fileID: 11400000, guid: a87e69594d8ccf84287c9b4cab56ece3, type: 2}
