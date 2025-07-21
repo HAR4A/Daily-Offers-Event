@@ -1,27 +1,48 @@
-# Daily-Offers-Event
+# Daily Offers Event
 
-Overview
+A time-limited in-game offer system for Unity applications.Includes dynamic offers, persistent state, remote configuration, and on-demand UI loading.
 
-This project implements a dynamic in-game offer system for Unity-based applications. It provides time-limited special offers (e.g., rewarded ads or IAP bundles), persistent state across sessions, and dynamic configuration via Firebase Remote Config. Offers and related UI assets are loaded on-demand using Addressables, ensuring a modular, scalable, and maintainable codebase.
+**Unity version used:** Unity 2022.3.59f1
 
-Tech Stack
+## Features
 
-Engine & Language: Unity (IL2CPP/Mono), C#
+- Time-limited special offers via rewarded ads or in-app purchase bundles
 
-Dependency Injection: Zenject
+- Persistent event state across game sessions
 
-Async Programming: UniTask (Cysharp.Threading.Tasks)
+- Dynamic configuration through Firebase Remote Config
 
-Reactive Extensions: UniRx
+- On-demand UI and asset loading using Addressables
 
-Asset Management: Unity Addressables
+- Assembly Definitions: code organized into asmdef assemblies (Config, Services, Events, UI, Core) for reusable modules and faster incremental builds.
 
-Remote Configuration: Firebase Remote Config
+## Architecture Overview
 
-Persistence & Serialization: JSON.NET (Newtonsoft.Json) + FileStorage
+- EntryPoint (Bootstrapper): initializes all IInitializeService implementations in startup sequence.
 
-Advertisement & Monetization: Unity Ads (Rewarded), Unity IAP (In-App Purchases)
+- Config Loading: JsonConfigProvider aggregates FirebaseConfigRepository (Remote Config) and LocalConfigRepository (Offers.json) into a unified OfferConfig list.
 
-External SDKs: Firebase (Remote Config, Analytics)
+- Purchase Flow: PurchaseService abstracts Rewarded Ad and IAP logic, exposing a single OnPurchase(offerId) event.
 
-Architecture
+- Event Management: OfferEvent controls the offer lifecycle, persisting EventState via FileStorage and scheduling expiration with TimerService.
+
+- UI Layer: AddressablesOfferUIViewFactory dynamically loads UI prefabs from Addressables; UI components use UniRx for reactive interactions.
+
+- Dependency Injection: Zenject separates configuration, services, and UI for modularity and testability.
+
+
+## Technology Stack
+
+- Zenject – Dependency Injection framework
+
+- UniTask – Async/await support in Unity
+
+- UniRx – Reactive Extensions for user interface
+
+- Addressables – Asset bundle management
+
+- Firebase Remote Config – Dynamic remote settings
+
+- Unity Ads (Rewarded) and Unity IAP – Monetization services
+
+- Newtonsoft.Json (Json.NET) – JSON serialization and deserialization
