@@ -46,3 +46,12 @@ A time-limited in-game offer system for Unity applications.Includes dynamic offe
 - Unity Ads (Rewarded) and Unity IAP – Monetization services
 
 - Newtonsoft.Json (Json.NET) – JSON serialization and deserialization
+
+
+## Screenshots
+
+<img width="1899" height="893" alt="image" src="https://github.com/user-attachments/assets/e7f296e3-b7b6-466d-9398-fbc57eb55340" />
+
+<img width="1913" height="894" alt="image" src="https://github.com/user-attachments/assets/4c19a9bb-4216-4e88-90bf-da034f91e628" />
+
+
